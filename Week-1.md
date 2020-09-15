@@ -246,9 +246,7 @@ print(x ** y)
 
 ### Celsius to Fahrenheit conversion
 
-$$
-F =  \frac{9C}{5} + 32
-$$
+![equation](https://latex.codecogs.com/gif.latex?F%20%3D%20%5Cfrac%7B9C%7D%7B5%7D%20&plus;%2032)
 
 ```python
 # input prompt
@@ -263,9 +261,7 @@ print("The corresponding fahrenheit degree is ", temp_f)
 
 ### Fahrenheit to Celsius conversion
 
-$$
-C =  \frac{5}{9}(F-32) 
-$$
+![equation](https://latex.codecogs.com/gif.latex?C%20%3D%20%5Cfrac%7B5%7D%7B9%7D%28F-32%29)
 
 ```python
 temp_f = float(input("Celsius: "))
@@ -406,9 +402,7 @@ if condition:
 
 #### Example: ReLU
 
-$$
-ReLU(x) =  x =\begin{cases}0 & if & x <= 0\\x & if & x > 0\end{cases}
-$$
+![equation](https://latex.codecogs.com/gif.latex?ReLU%28x%29%3D%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%200%26%20if%20%26%20x%20%3C%3D%200%20%5C%5C%201%26%20if%20%26%20x%20%3E%200%20%5Cend%7Bmatrix%7D%5Cright.)
 
 ```python
 def ReLU(x):
@@ -446,9 +440,7 @@ else:
 
 #### Example: Compute LBP(x, y)
 
-$$
-LBP(x, y) =  x =\begin{cases}0 & if & x = y\\1 & if & x > y\\-1 & if & x < y\end{cases} 
-$$
+![equation](https://latex.codecogs.com/gif.latex?LBP%28x%2C%20y%29%20%3D%20%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%200%20%26%20if%20%26%20x%20%3D%20y%5C%5C%20-1%20%26%20if%20%26%20x%20%3C%20y%5C%5C%201%20%26%20if%20%26%20x%20%3E%20y%20%5Cend%7Bmatrix%7D%5Cright.)
 
 ```python
 def compute_LBP(x, y):
